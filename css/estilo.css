@@ -207,7 +207,12 @@ div.contato a {
 	color: white;
 	text-decoration: none;
 	border-radius: 20px;
-    font-weight: bold   ;
+    font-weight: bold;
+}
+
+div.contato li:hover{
+    transform: scale(1.2);
+	transition: 0.5s;
 }
 
 div.contato img {
