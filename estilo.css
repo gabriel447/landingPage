@@ -8,7 +8,7 @@
 
 .menu {
     display: flex;
-    background-color: tomato;
+    background-color: grey;
     justify-content: space-between;
     padding: 20px;
 }
