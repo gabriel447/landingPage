@@ -8,6 +8,11 @@
 
 /* menu */
 
+.menu img {
+	width: 150px; 
+	height: 50px;
+}
+
 .intro input[type=submit]{
 	width: 140px;
 	height: 40px;
@@ -56,7 +61,7 @@
     height: 150px;
 }
 
-.title h1{
+.title h3{
     text-align: center;
     padding-top: 50px;
     color: white;
@@ -105,7 +110,7 @@
 
 .wiki {
 	padding-top: 60px;
-	height: 300px;
+	height: 250px;
 	text-align: center;
 	font-weight: bold;
 	padding-left: 60px;
@@ -141,7 +146,7 @@
     height: 80px;
 }
 
-.devs h1{
+.devs h3{
     text-align: center;
     padding-top: 20px;
     color: white;
@@ -195,7 +200,7 @@
 	padding-top: 100px;
 }
 
-.desc1 h4 {
+.desc1 h3 {
 	padding-bottom: 20px;
 }
 
@@ -207,7 +212,7 @@
 	padding-top: 100px;
 }
 
-.desc2 h4 {
+.desc2 h3 {
 	padding-bottom: 20px;
     display: flex;
     flex-direction: row-reverse;
@@ -224,7 +229,7 @@
     height: 80px;
 }
 
-.call h1{
+.call h3{
     text-align: center;
     padding-top: 20px;
     color: white;
@@ -278,7 +283,7 @@ div.contato img {
 	flex-direction: column;
 }
 
-.sobre h4 {
+.sobre h3 {
 	color: white;
 }
 
@@ -289,16 +294,9 @@ div.contato img {
 	font-size: 17px;
 }
 
-.des {
+/* .des {
 	padding-top: 100px;
-	color: white;
-}
-
-.des a {
-	text-decoration: none;
-	color: beige;
-	font-weight: bold;
-}
+} */
 
 .atendimento {
 	padding-right: 40px;
@@ -306,7 +304,7 @@ div.contato img {
 	padding-bottom: 20px;
 }
 
-.atendimento h4 {
+.atendimento h3 {
 	padding-bottom: 20px;
 }
 
@@ -329,3 +327,39 @@ footer a {
    text-decoration: none;
    color: black;
 }
+
+/* celulares */
+@media screen and (max-width: 480px) {
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.body img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.rodape {
+		height: 800px;
+	}
+
+	.rodape p {
+		font-size: 10px;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bio1, .bio2 {
+		padding: 0;
+		margin: 20px;
+	}
+
+}
+
+
+		
+	
