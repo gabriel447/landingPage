@@ -6,6 +6,11 @@
     font-family: Verdana, sans-serif;
 }
 
+body {
+	width: 100%;
+	height: 100%;
+}
+
 /* menu */
 
 .menu img {
@@ -122,8 +127,8 @@
 }
 
 .wiki input[type=submit]{
-	width: 140px;
-	height: 40px;
+	width: 150px;
+	height: 50px;
 	cursor: pointer;
 	margin: 40px;
 	font-size: 14px;
@@ -131,7 +136,7 @@
 	background: dodgerblue;
 	color: white;
 	border: 0;
-	border-radius: 20px;
+	border-radius: 25px;
 }
 
 .wiki input:hover {
@@ -205,7 +210,7 @@
 }
 
 .desc1 p {
-	padding-right: 100px;
+	padding-right: 280px;
 }
 
 .desc2 {
@@ -241,10 +246,6 @@ div.contato {
 	color: #363636;
 }
 
-div.contato li {
-	list-style-type: none;
-}
-
 div.contato a {
 	background-color: tomato;
 	padding: 12px;
@@ -252,6 +253,11 @@ div.contato a {
 	text-decoration: none;
 	border-radius: 20px;
     font-weight: bold;
+	font-size: 12px;
+}
+
+div.contato li {
+	list-style-type: none;
 }
 
 div.contato li:hover{
@@ -289,7 +295,7 @@ div.contato img {
 
 .sobre p {
 	padding-right: 400px;
-	padding-top: 60px;
+	padding-top: 70px;
 	color: white;
 	font-size: 17px;
 }
@@ -312,6 +318,7 @@ div.contato img {
 	padding-top: 20px;
 	padding-right: 40px;
 	font-size: 14px;
+	font-weight: bold;
 }
 
 /* footer */
@@ -329,33 +336,72 @@ footer a {
 }
 
 /* celulares */
-@media screen and (max-width: 480px) {
-	div {
+@media (max-width: 500px) {
+
+	body {
+		width: 100%;
+		height: 100%;
+	}
+
+	.slide-central img {
+		width: 500px;
+		height: 500px;
+	}
+
+	.title {
+		font-size: small;
+		height: min-content;
+		padding-bottom: 60px;
+	}
+
+	.icon {
+		width: 60px;
+		height: 60px;
+	}
+
+	.box-content {
+		width: 120px;
+		height: 120px;
+		margin: 10px;
+	}
+
+	.content {
 		display: flex;
-		flex-direction: column;
+		justify-content: center;
+		padding: 30px;
 	}
 
-	.body img {
-		width: 100px;
+	.title-wiki h3 {
+		font-size: medium;
+	}
+
+	.container-bio img {
 		height: 100px;
+		width: 100px;
 	}
 
-	.rodape {
-		height: 800px;
+	.container-bio h3{
+		font-size: medium;
 	}
 
-	.rodape p {
+	.container-bio p{
+		font-size: 0px;
+	}
+
+	.sobre {
+		display: none;
+	}
+
+	.atendimento h3 {
+		display: none;
+	}
+
+	.box-rodape {
 		font-size: 10px;
 	}
 
-	footer {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.bio1, .bio2 {
-		padding: 0;
-		margin: 20px;
+	.rodape {
+		height: 300px;
 	}
 
 }
