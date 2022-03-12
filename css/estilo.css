@@ -387,13 +387,16 @@ footer a {
 	}
 
 	.sobre p{
-		font-size: 10px;
-		text-align: justify;
+		font-size: 15px;
+		width: 800px;
 	}
 
+	.atendimento {
+		display: none;
+	}
 
 	.rodape {
-		height: 400px;
+		height: 300px;
 	}
 	
 }
@@ -402,6 +405,11 @@ footer a {
 @media screen and (min-width: 500px) and (max-width: 900px){
 	.atendimento {
 		display: none;
+	}
+
+	.sobre {
+		font-size: 15px;
+		width: 900px;
 	}
 
 	.container-bio p{
