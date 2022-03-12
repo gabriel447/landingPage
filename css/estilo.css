@@ -211,6 +211,7 @@ body {
 
 .desc1 p {
 	padding-right: 280px;
+	text-align: justify;
 }
 
 .desc2 {
@@ -224,6 +225,7 @@ body {
 }
 
 .desc2 p {
+	text-align: justify;
 	padding-left: 280px;
 }
 
@@ -300,10 +302,6 @@ div.contato img {
 	font-size: 17px;
 }
 
-/* .des {
-	padding-top: 100px;
-} */
-
 .atendimento {
 	padding-right: 40px;
 	color: white;
@@ -336,7 +334,7 @@ footer a {
 }
 
 /* celulares */
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
 	body {
 		width: 100%;
@@ -385,26 +383,37 @@ footer a {
 	}
 
 	.container-bio p{
-		font-size: 0px;
-	}
-
-	.sobre {
 		display: none;
 	}
 
-	.atendimento h3 {
-		display: none;
-	}
-
-	.box-rodape {
+	.sobre p{
 		font-size: 10px;
+		text-align: justify;
+	}
+
+
+	.rodape {
+		height: 400px;
+	}
+	
+}
+
+/* tablet */
+@media screen and (min-width: 500px) and (max-width: 900px){
+	.atendimento {
+		display: none;
+	}
+
+	.container-bio p{
+		display: none;
 	}
 
 	.rodape {
-		height: 300px;
+		height: 400px;
 	}
-
 }
+
+
 
 
 		
