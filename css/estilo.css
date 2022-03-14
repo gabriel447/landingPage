@@ -97,7 +97,7 @@ body {
 
 .wiki {
 	padding-top: 60px;
-	height: 250px;
+	height: 300px;
 	text-align: center;
 	font-weight: bold;
 	padding-left: 60px;
@@ -105,6 +105,10 @@ body {
 }
 
 .wiki a {
+	padding: 15px;
+	text-align: justify;
+	color: grey; 
+	font-size: large;
 	text-decoration: none;
 }
 
@@ -232,7 +236,7 @@ div.contato {
 
 div.contato a {
 	background-color: dodgerblue;
-	padding: 12px;
+	padding: 15px;
 	color: white;
 	text-decoration: none;
 	border-radius: 20px;
